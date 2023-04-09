@@ -1,0 +1,5 @@
+In V2, there are two modifications.They are a user who is able to create several playlists and who needs to store the user's account type.
+
+The first one may be accomplished by removing the playlist property from the user table's composite primary key.(which was in V1 as only one playlist for one user)
+
+The second change is made by including a new attribute in the user table called account_type.
